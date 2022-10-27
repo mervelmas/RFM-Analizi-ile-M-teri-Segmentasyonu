@@ -1,10 +1,12 @@
+PROJE GÖREVLERİ
+
 #Adım1: flo_data_20K.csv verisini okuyunuz.Dataframe’in kopyasını oluşturunuz.
 
 import datetime as dt
 import pandas as pd
 pd.set_option('display.max_columns', None)
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
-df_ = pd.read_csv("C:\\Users\\Merve.Taner\\Desktop\\datasets\\flo_data_20k.csv")
+df_ = pd.read_csv("C:\\Users\\Merve.Elmas\\Desktop\\datasets\\flo_data_20k.csv")
 df = df_.copy()
 
 #Adım2: Veri setinde
